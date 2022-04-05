@@ -18,7 +18,7 @@ fun main(args: Array<String>) {
     calcPrint(amount,type, amountPreviousTransfers)
 }
 
-fun convert(amount: Int): String {
+fun convert1(amount: Int): String {
     return "${(amount / 100)} руб. ${amount % 100} коп. "
 }
 
